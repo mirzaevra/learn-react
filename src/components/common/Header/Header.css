@@ -1,0 +1,15 @@
+.header {
+    grid-area: header;
+    background: lightblue;
+    padding: 10px;
+}
+
+.header .logo {
+    width: 40px;
+    height: auto;
+}
+
+.header__row {
+    display: flex;
+    align-items: center;
+}

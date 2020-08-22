@@ -1,0 +1,7 @@
+.asideNav__item {
+    margin-bottom: 10px;
+}
+
+.asideNav__item:last-child {
+    margin-bottom: 0;
+}

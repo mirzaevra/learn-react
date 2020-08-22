@@ -1,0 +1,12 @@
+.content {}
+
+.content .container_grid {
+    display: grid;
+    grid-template-areas:
+            "header header"
+"aside main"
+"footer footer";
+    grid-template-rows: 60px 2fr;
+    grid-template-columns: 3fr 10fr;
+    grid-gap: 10px;
+}
